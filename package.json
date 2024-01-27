@@ -1,0 +1,20 @@
+{
+  "name": "booth-watcher",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "author": "glaciyan",
+  "devDependencies": {
+    "@types/node": "^20.11.8",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.3.0",
+    "cheerio": "1.0.0-rc.12",
+    "reflect-metadata": "^0.2.1",
+    "typeorm": "^0.3.20"
+  }
+}
