@@ -7,7 +7,7 @@ import { mkdir, open } from "node:fs/promises";
 import path from "node:path";
 
 const outputLogs = "./log";
-const url = "https://ui-shig.booth.pm/";
+const url = "https://pixivwaengallery.booth.pm/";
 
 const selector = ".js-mount-point-shop-item-card";
 const attribute = "data-item";
